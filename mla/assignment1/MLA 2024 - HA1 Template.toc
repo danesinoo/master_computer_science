@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Make Your Own (10 points)}{2}{section.1}%
+\contentsline {section}{\numberline {2}Digits Classification with $K$ Nearest Neighbors (40 points)}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Task \#1}{2}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}What can you say about fluctuations of the validation error as a function of $n$?}{5}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}What can you say about the prediction accuracy of K-NN as a function of K?}{5}{subsubsection.2.1.2}%
