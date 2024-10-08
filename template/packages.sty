@@ -1,0 +1,100 @@
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{listings}
+\usepackage{xcolor}
+\lstset{
+	language=[GNU]C++,
+	numbers=left,
+	backgroundcolor=\color{gray!5}, % set backgroundcolor
+	basicstyle=\footnotesize\ttfamily,% basic font setting
+	commentstyle=\color{green!50!black},
+	keywordstyle=\color{blue},
+	stringstyle=\color{purple},
+	numberstyle=\tiny\color{gray},
+	breakatwhitespace=false,
+	breaklines=true,
+	captionpos=b,
+	keepspaces=true,
+	showspaces=false,
+	showstringspaces=false,
+	showtabs=false,
+	tabsize=4,
+	morecomment=[l][\color{magenta}]{\#},
+	morekeywords={include, printf, scanf, int, double, struct, return, import, from, class, def, for, in, if, else, while, let, const, async, await, function, export, require, module, const, var, let, true, false, null},
+	deletekeywords={...}
+}
+
+\lstdefinelanguage{HTML}{
+	morekeywords={html,body,head,title,table,tr,th,td},
+	sensitive=false,
+	morecomment=[s]{<!--}{-->},
+	morestring=[b]",
+}
+
+\lstnewenvironment{htmlcode}[1][]
+{
+	\lstset{
+		language=HTML,
+		backgroundcolor=\color{gray!5}, % set backgroundcolor
+		basicstyle=\footnotesize\ttfamily,% basic font setting
+		commentstyle=\color{green!50!black},
+		keywordstyle=\color{blue},
+		stringstyle=\color{purple},
+		numberstyle=\tiny\color{gray},
+		breakatwhitespace=false,
+		breaklines=true,
+		captionpos=b,
+		keepspaces=true,
+		showspaces=false,
+		showstringspaces=false,
+		showtabs=false,
+		tabsize=4,
+		#1
+	}
+}{}
+
+\usepackage{comment}
+\usepackage{tabularx}
+\usepackage{changepage}
+\usepackage{amsfonts}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{multirow}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage{stmaryrd}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{rotating}
+\geometry{height=24 cm}
+\geometry{left=2.5 cm}
+\geometry{right=2.5 cm}
+\geometry{top=2 cm}
+\geometry{headheight=1 cm}
+
+\setcounter{secnumdepth}{2}
+\renewcommand{\labelitemi}{-}
+\newtheorem{definition}{Def.}[section]
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{proof}{Dimostrazione}[section]
+\usepackage[T1]{fontenc} % Font encoding for Italian characters
+
+\numberwithin{equation}{section}
+
+\linespread{1.5}
+
+\usepackage{environ}
+\usepackage{xparse}
+
+\NewDocumentEnvironment{mat}{m}{%
+	\begin{bmatrix}
+		\begin{array}{#1}
+}{%
+		\end{array}
+	\end{bmatrix}
+}

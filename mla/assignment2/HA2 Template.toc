@@ -1,0 +1,4 @@
+\contentsline {section}{\numberline {1}Linear Regression (50 points)}{2}{section.1}%
+\contentsline {section}{\numberline {2}The Role of Independence (13 points)}{4}{section.2}%
+\contentsline {section}{\numberline {3}Confidence Intervals for Bernoulli (17 points)}{5}{section.3}%
+\contentsline {section}{\numberline {4}Comparison of Markov's, Chebyshev's, and Hoeffding's Inequalities (20 points)}{6}{section.4}%

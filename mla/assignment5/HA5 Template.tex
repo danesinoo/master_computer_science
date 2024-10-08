@@ -1,0 +1,104 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{a4wide}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{lipsum}
+
+\usepackage{graphicx}  % For including images
+\usepackage{xcolor}  % For a colorfull presentation
+\usepackage{listings}  % For presenting code 
+\usepackage{hyperref}
+% New command for author names
+\newcommand{\authorpoints}[2]{{\large \texttt{(#2 points)} \texttt{[#1]}}}
+
+% Definition of a style for code, matter of taste
+\lstdefinestyle{mystyle}{
+  language=Python,
+  basicstyle=\ttfamily\footnotesize,
+  backgroundcolor=\color[HTML]{F7F7F7},
+  rulecolor=\color[HTML]{EEEEEE},
+  identifierstyle=\color[HTML]{24292E},
+  emphstyle=\color[HTML]{005CC5},
+  keywordstyle=\color[HTML]{D73A49},
+  commentstyle=\color[HTML]{6A737D},
+  stringstyle=\color[HTML]{032F62},
+  emph={@property,self,range,True,False},
+  morekeywords={super,with,as,lambda},
+  literate=%
+    {+}{{{\color[HTML]{D73A49}+}}}1
+    {-}{{{\color[HTML]{D73A49}-}}}1
+    {*}{{{\color[HTML]{D73A49}*}}}1
+    {/}{{{\color[HTML]{D73A49}/}}}1
+    {=}{{{\color[HTML]{D73A49}=}}}1
+    {/=}{{{\color[HTML]{D73A49}=}}}1,
+  breakatwhitespace=false,
+  breaklines=true,
+  captionpos=b,
+  keepspaces=true,
+  numbers=none,
+  showspaces=false,
+  showstringspaces=false,
+  showtabs=false,
+  tabsize=4,
+  frame=single,
+}
+\lstset{style=mystyle}
+
+\begin{document}
+\title{Machine Learning A (2024)\\Home Assignment 5}
+\author{\color{red}Your name and student ID}
+\date{}
+\maketitle
+
+% Please leave the table of contents as is, for the ease of navigation for TAs
+\tableofcontents % Generates the table of contents
+% \newpage % Start a new page after the table of contents
+
+
+
+
+\section{Sleep well \authorpoints{Christian, W4 Friday}{35}}
+    \subsection{} % 1.1
+
+    \subsection{} % 1.2
+        \subsubsection{Logistic regression}
+
+        \subsubsection{Random forest}
+
+        \subsubsection{Nearest neighbour}
+        
+
+
+
+
+
+\section{Invariance and normalization \authorpoints{Christian, W4 Friday}{30}}
+    \subsection{Nearest neighbour} % 2.1
+
+    \subsection{Logistic regression} % 2.2
+    
+    \subsection{Random forest} % 2.3
+
+
+
+
+
+
+
+\section{Differentiable programming \authorpoints{Christian, W5 Monday}{35}}
+    \subsection{Migration to Pytorch} % 3.1
+
+    
+
+
+
+
+
+
+
+
+\bibliography{bibliography}  % If you have some references, use BibTeX
+
+\end{document}
